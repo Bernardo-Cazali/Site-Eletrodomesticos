@@ -131,7 +131,7 @@ echo '<div class="panel panel-primary">
       <div class="panel-heading"><center>Nota da Compra</center></font></div>
       <div class="panel-body">';
 
-echo "<h2> Compra Realizada Com Sucesso!<br>Compra N?mero: $idvenda</h2><br>";
+echo "<h2> Compra Realizada Com Sucesso!<br>Compra Número: $idvenda</h2><br>";
 echo '<center><font color="#006400"><h4>Total da Compra: R$ '.number_format($total, 2, ',', '.').'</h4></center><br>';
 echo '<a href=pedidos.php?idcliente='. $id_cliente.'><button type="submit" class="btn btn-primary btn-block"> Meus Pedidos </button></a>';
                
