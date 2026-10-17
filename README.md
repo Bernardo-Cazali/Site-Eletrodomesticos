@@ -33,21 +33,21 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 ## 📁 Estrutura do Repositório
 
 ```text
-├── database/         # Scripts e estrutura do banco de dados MySQL
-├── imagem/ & img/    # Ativos visuais e imagens dos eletrodomésticos
-├── cadastro.php      # Tela de registro de novos usuários
-├── carrinho.php      # Gestão do carrinho de compras
-├── conexao.php       # Conexão PDO/MySQLi com o banco
-├── css.css           # Estilos globais da aplicação
-├── finalizar.php     # Lógica de fechamento de pedido
-├── inicio.php        # Página inicial (Home) do sistema
-├── js.js             # Scripts e manipulação do DOM em JavaScript
-├── login.php         # Tela de autenticação
-├── menu.php          # Componente de navegação reutilizável
-├── pedidos.php       # Histórico/visualização de pedidos
-├── produto.php       # Detalhes e exibição do produto
-├── promocao.php      # Página de ofertas
-└── sobre.html        # Página institucional sobre a loja
+├── database/              # Scripts e estrutura do banco de dados MySQL
+├── imagem/ & img/         # Ativos visuais e imagens dos eletrodomésticos
+├── cadastro.php           # Tela de registro de novos usuários
+├── carrinho.php           # Gestão do carrinho de compras
+├── conexao.exemplo.php    # Conexão Conexão MySQLi com o banco
+├── css.css                # Estilos globais da aplicação
+├── finalizar.php          # Lógica de fechamento de pedido
+├── inicio.php             # Página inicial (Home) do sistema
+├── js.js                  # Scripts e manipulação do DOM em JavaScript
+├── login.php              # Tela de autenticação
+├── menu.php               # Componente de navegação reutilizável
+├── pedidos.php            # Histórico/visualização de pedidos
+├── produto.php            # Cadastra produtos
+├── promocao.php           # Página de ofertas
+└── sobre.html             # Página institucional sobre a loja
 ```
 
 ---
