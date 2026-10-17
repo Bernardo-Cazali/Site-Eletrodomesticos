@@ -50,6 +50,8 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 └── sobre.html        # Página institucional sobre a loja
 ```
 
+---
+
 ## 🛠️ Como Executar o Projeto Localmente
 
 ### 1. Baixe o projeto
