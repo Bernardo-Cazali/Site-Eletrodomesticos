@@ -50,24 +50,39 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 └── sobre.html        # Página institucional sobre a loja
 
 
-🔧 Como Executar o Projeto Localmente
+## 🛠️ Como Executar o Projeto Localmente
 
-1 - Clonar o repositório:
+### 1. Baixe o projeto
 
-git clone [https://github.com/SEU-USUARIO/elemax.git](https://github.com/SEU-USUARIO/elemax.git)
+No PowerShell, acesse a pasta `htdocs` do XAMPP e clone o repositório:
 
-2 - Configurar o ambiente servidor:
+```powershell
+cd C:\xampp\htdocs
+git clone https://github.com/Bernardo-Cazali/Site-Eletrodomesticos.git
+```
 
-Mova a pasta do projeto para o diretório htdocs (no caso do XAMPP) ou www (no WampServer).
+Se preferir, também dá para baixar o ZIP do repositório e extrair dentro de `htdocs`.
 
-Inicie os serviços de Apache e MySQL.
+### 2. Inicie o ambiente
 
-3 - Importar o Banco de Dados:
+Abra o XAMPP Control Panel e inicie os serviços **Apache** e **MySQL**.
 
-Acesse o phpMyAdmin (http://localhost/phpmyadmin).
+### 3. Crie a estrutura do banco de dados
 
-Crie um banco de dados MySQL e importe o script .sql localizado na pasta /database.
+No MySQL Workbench, abra o arquivo `database/estrutura.sql` e execute o script. Ele cria o banco `eletrodomesticos` e as tabelas usadas pelo sistema; não é necessário criar o banco manualmente.
 
-4 - Acessar a aplicação:
+### 4. Configure a conexão
 
-Abra o navegador e acesse: http://localhost/elemax/inicio.php
+Na pasta do projeto, faça uma cópia de `conexao.exemplo.php` e renomeie a cópia para `conexao.php`. Abra esse arquivo e preencha os dados de conexão do seu MySQL/MariaDB. A conta usada precisa ter acesso ao banco `eletrodomesticos`.
+
+> O arquivo `conexao.php` é local e está fora do repositório para proteger as credenciais. Não publique sua senha no GitHub.
+
+### 5. Abra o site
+
+Acesse no navegador:
+
+[http://localhost/Site-Eletrodomesticos/inicio.php](http://localhost/Site-Eletrodomesticos/inicio.php)
+
+Se você extraiu o projeto com outro nome de pasta, troque `Site-Eletrodomesticos` pelo nome usado.
+
+> O script cria as tabelas, mas não inclui produtos de exemplo. Cadastre produtos e promoções para preencher o catálogo.
