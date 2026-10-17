@@ -8,9 +8,9 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 
 > *Substitua o caminho entre parênteses pelo link/caminho da imagem que subir no GitHub.*
 
-| Tela Inicial / Catálogo | Carrinho de Compras |
+| Tela Inicial / Catálogo | Tela da venda finalizada |
 | :---: | :---: |
-| ![Home Page](imagem/print-home.png) | ![Carrinho](imagem/print-carrinho.png) |
+| ![Home Page](imagem/print-home.png) | ![Carrinho](imagem/print-venda.png) |
 
 ---
 
