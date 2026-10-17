@@ -48,7 +48,7 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 ├── produto.php       # Detalhes e exibição do produto
 ├── promocao.php      # Página de ofertas
 └── sobre.html        # Página institucional sobre a loja
-
+```
 
 ## 🛠️ Como Executar o Projeto Localmente
 
