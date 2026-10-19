@@ -6,7 +6,7 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 
 ## 📸 Demonstração do Sistema
 
-| Tela Inicial / Catálogo | Tela da venda finalizada |
+| Tela Inicial | Tela da venda finalizada |
 | :---: | :---: |
 | ![Home Page](imagem/print-home.png) | ![Venda](imagem/print-venda.png) |
 
