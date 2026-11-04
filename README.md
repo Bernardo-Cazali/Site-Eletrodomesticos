@@ -54,37 +54,4 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 
 ## 🛠️ Como Executar o Projeto Localmente
 
-### 1. Baixe o projeto
-
-No PowerShell, acesse a pasta `htdocs` do XAMPP e clone o repositório:
-
-```powershell
-cd C:\xampp\htdocs
-git clone https://github.com/Bernardo-Cazali/Site-Eletrodomesticos.git
-```
-
-Se preferir, também dá para baixar o ZIP do repositório e extrair dentro de `htdocs`.
-
-### 2. Inicie o ambiente
-
-Abra o XAMPP Control Panel e inicie os serviços **Apache** e **MySQL**.
-
-### 3. Crie a estrutura do banco de dados
-
-No MySQL Workbench, abra o arquivo `database/estrutura.sql` e execute o script. Ele cria o banco `eletrodomesticos` e as tabelas usadas pelo sistema; não é necessário criar o banco manualmente.
-
-### 4. Configure a conexão
-
-Na pasta do projeto, faça uma cópia de `conexao.exemplo.php` e renomeie a cópia para `conexao.php`. Abra esse arquivo e preencha os dados de conexão do seu MySQL/MariaDB. A conta usada precisa ter acesso ao banco `eletrodomesticos`.
-
-> O arquivo `conexao.php` é local e está fora do repositório para proteger as credenciais. Não publique sua senha no GitHub.
-
-### 5. Abra o site
-
-Acesse no navegador:
-
-[http://localhost/Site-Eletrodomesticos/inicio.php](http://localhost/Site-Eletrodomesticos/inicio.php)
-
-Se você extraiu o projeto com outro nome de pasta, troque `Site-Eletrodomesticos` pelo nome usado.
-
-> O script cria as tabelas, mas não inclui produtos de exemplo. Cadastre produtos e promoções para preencher o catálogo.
+http://elemax.page.gd/inicio.php
