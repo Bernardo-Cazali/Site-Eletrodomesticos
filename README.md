@@ -52,6 +52,6 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 
 ---
 
-## 🛠️ Como Executar o Projeto Localmente
+## 🛠️ Acessar o Projeto Online
 
 http://elemax.page.gd/inicio.php
