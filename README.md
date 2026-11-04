@@ -2,6 +2,8 @@
 
 Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre do curso técnico em informática. Trata-se de uma aplicação web voltada para o comércio eletrônico de eletrodomésticos, contemplando fluxo completo de cadastro de usuários, gestão de produtos, carrinho de compras e controle de pedidos.
 
+[![Acessar Elemax Online](https://img.shields.io/badge/🚀_Acessar_Sistema-Online-brightgreen?style=for-the-badge&logo=php)](http://elemax.page.gd/inicio.php)
+
 ---
 
 ## 📸 Demonstração do Sistema
