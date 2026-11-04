@@ -51,9 +51,3 @@ Projeto desenvolvido como requisito avaliativo de uma matéria do 4º semestre d
 ├── promocao.php           # Página de ofertas
 └── sobre.html             # Página institucional sobre a loja
 ```
-
----
-
-## 🛠️ Acessar o Projeto Online
-
-http://elemax.page.gd/inicio.php
